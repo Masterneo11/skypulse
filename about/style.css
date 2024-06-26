@@ -1,0 +1,239 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: flex-end;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainstage {
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    background-image: ;
+    /* justify-content: center; */
+    align-items: center;
+    height: 120vh;
+    width: 85vw;
+    align-content: space-around;
+    margin-top: 100px;
+    margin: 40px;
+
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    height: 20%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 60%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.learn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 60%;
+    width: 100vh;
+    justify-content: center;
+    border: 1px;
+    border-color: rgb(255, 255, 255);
+    align-self: center;
+
+}
+
+#introlearn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(99, 98, 98);
+    justify-content: center;
+    border: 1px;
+    border-color: black;
+    width: 60vw;
+    color: aliceblue;
+    margin: 0px;
+
+}
+
+.layout {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-content: space-around;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#box1 {
+    background-color: rgb(255, 255, 255);
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: 10px;
+    border-color: rgb(255, 255, 255)
+}
+
+.page-build {
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+
+}
+#pagearea {
+    display: flex;
+    background-color: rgb(99, 98, 98);
+    color: aliceblue;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: flex;
+
+    
+
+}
+
+#box2 {
+    background-color: rgba(232, 241, 242, 0.981);
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    order: 1;
+
+
+}
+
+.bio {
+    display: flex;
+    height: 95%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(251, 252, 252);
+    flex-direction: row;
+    color: aliceblue
+}
+
+#introbio {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 254);
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#box4 {
+    background-color: rgb(232, 241, 242, 0.981);
+    height: 20vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: rgb(0, 0, 0);
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+#foot1 {
+height: 20vh;
+width: 51vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-self: flex-end;
+background-color: rgb(245, 245, 247);
+}
+
+#foot2 {
+height: 20vh;
+width: 51vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-self: flex-end;
+background-color: rgb(245, 245, 247);
+border-color: black;
+
+}
+.cf {
+    height: 20vh;
+width: 51vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-self: flex-end;
+background-color: rgb(245, 245, 247);
+
+}
+
+.faqss {
+    height: 20vh;
+width: 51vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-self: flex-end;
+background-color: rgb(245, 245, 247);
+
+}

@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+}
+a {
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    height: auto;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.titlearea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+}
+
+#titleinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: 10px;
+}
+
+.q {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(218, 190, 190, 0.856);
+    border-radius: 10px;
+}
+
+.faq h5 {
+    margin: 0 0 10px 0;
+}
+
+.faq p {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    width: 100%;
+    margin-top: 140px;
+}
+
+
+#foot1 {
+height: 20vh;
+width: 51vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-self: flex-end;
+background-color: rgb(245, 245, 247);
+}
+
+#foot2 {
+height: 20vh;
+width: 51vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-self: flex-end;
+background-color: rgb(245, 245, 247);
+border-color: black;
+
+}
+.cf {
+    height: 20vh;
+width: 51vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-self: flex-end;
+background-color: rgb(245, 245, 247);
+
+}
+
+.faqss {
+    height: 20vh;
+width: 51vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-self: flex-end;
+background-color: rgb(245, 245, 247);
+
+}
