@@ -2,7 +2,7 @@
 // this is referencing to the button below for get current weather :)
 document.addEventListener('DOMContentLoaded', async function (event) {
   const data = await getTwentyFourHourInfo();
-  console.log(data);
+  // console.log(data);
   // Assuming data is an array of objects with a temperature property
   const weatherElement = document.createElement("div");
   weatherElement.classList.add("WeatherElement");
@@ -49,15 +49,20 @@ document.addEventListener('DOMContentLoaded', async function () {
 document.addEventListener('DOMContentLoaded', async function (event) {
   const data = await getAlerts();
   console.log(data);
-  let text = `${data.description} <br> Instruction: ${data.instruction}`;
-  document.getElementById("alert").innerHTML = text;
+
+  let alertText = "";
+  data.features.forEach(feature => {
+    const properties = feature.properties;
+    alertText += `Area: <br> Headline: ${properties.headline} <br>`;
+  });
+  document.getElementById("alert").innerHTML = alertText;
 });
 // below function gets alert info 
 const getAlerts = async () => {
   const response = await fetch("https://api.weather.gov/alerts/active?area=UT");
   const data = await response.json();
-  console.log(data.title);
-  return data.title;
+  // console.log(data.features);
+  return data;
 };
 //  converting dateTime function. 
 function convertDateTime(datetime) {
